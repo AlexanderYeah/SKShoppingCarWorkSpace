@@ -1,0 +1,545 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03B44F6620084ED600551CF1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 03B44F6520084ED600551CF1 /* main.m */; };
+		03B44F6920084ED600551CF1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 03B44F6820084ED600551CF1 /* AppDelegate.m */; };
+		03B44F6C20084ED600551CF1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03B44F6B20084ED600551CF1 /* ViewController.m */; };
+		03B44F6F20084ED600551CF1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03B44F6D20084ED600551CF1 /* Main.storyboard */; };
+		03B44F7120084ED600551CF1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03B44F7020084ED600551CF1 /* Assets.xcassets */; };
+		03B44F7420084ED600551CF1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03B44F7220084ED600551CF1 /* LaunchScreen.storyboard */; };
+		03B44F7F20084ED700551CF1 /* ParabolaMoveDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 03B44F7E20084ED700551CF1 /* ParabolaMoveDemoTests.m */; };
+		03B44F8A20084ED700551CF1 /* ParabolaMoveDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 03B44F8920084ED700551CF1 /* ParabolaMoveDemoUITests.m */; };
+		03B44F9920084F5100551CF1 /* ParabolaManger.m in Sources */ = {isa = PBXBuildFile; fileRef = 03B44F9820084F5100551CF1 /* ParabolaManger.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		03B44F7B20084ED700551CF1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 03B44F5920084ED600551CF1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 03B44F6020084ED600551CF1;
+			remoteInfo = ParabolaMoveDemo;
+		};
+		03B44F8620084ED700551CF1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 03B44F5920084ED600551CF1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 03B44F6020084ED600551CF1;
+			remoteInfo = ParabolaMoveDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03B44F6120084ED600551CF1 /* ParabolaMoveDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ParabolaMoveDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		03B44F6520084ED600551CF1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		03B44F6720084ED600551CF1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		03B44F6820084ED600551CF1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		03B44F6A20084ED600551CF1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		03B44F6B20084ED600551CF1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		03B44F6E20084ED600551CF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		03B44F7020084ED600551CF1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		03B44F7320084ED600551CF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		03B44F7520084ED600551CF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03B44F7A20084ED700551CF1 /* ParabolaMoveDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ParabolaMoveDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		03B44F7E20084ED700551CF1 /* ParabolaMoveDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ParabolaMoveDemoTests.m; sourceTree = "<group>"; };
+		03B44F8020084ED700551CF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03B44F8520084ED700551CF1 /* ParabolaMoveDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ParabolaMoveDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		03B44F8920084ED700551CF1 /* ParabolaMoveDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ParabolaMoveDemoUITests.m; sourceTree = "<group>"; };
+		03B44F8B20084ED700551CF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03B44F9720084F5100551CF1 /* ParabolaManger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParabolaManger.h; sourceTree = "<group>"; };
+		03B44F9820084F5100551CF1 /* ParabolaManger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParabolaManger.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		03B44F5E20084ED600551CF1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03B44F7720084ED700551CF1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03B44F8220084ED700551CF1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03B44F5820084ED600551CF1 = {
+			isa = PBXGroup;
+			children = (
+				03B44F6320084ED600551CF1 /* ParabolaMoveDemo */,
+				03B44F7D20084ED700551CF1 /* ParabolaMoveDemoTests */,
+				03B44F8820084ED700551CF1 /* ParabolaMoveDemoUITests */,
+				03B44F6220084ED600551CF1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		03B44F6220084ED600551CF1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				03B44F6120084ED600551CF1 /* ParabolaMoveDemo.app */,
+				03B44F7A20084ED700551CF1 /* ParabolaMoveDemoTests.xctest */,
+				03B44F8520084ED700551CF1 /* ParabolaMoveDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		03B44F6320084ED600551CF1 /* ParabolaMoveDemo */ = {
+			isa = PBXGroup;
+			children = (
+				03B44F6720084ED600551CF1 /* AppDelegate.h */,
+				03B44F6820084ED600551CF1 /* AppDelegate.m */,
+				03B44F6A20084ED600551CF1 /* ViewController.h */,
+				03B44F6B20084ED600551CF1 /* ViewController.m */,
+				03B44F9720084F5100551CF1 /* ParabolaManger.h */,
+				03B44F9820084F5100551CF1 /* ParabolaManger.m */,
+				03B44F6D20084ED600551CF1 /* Main.storyboard */,
+				03B44F7020084ED600551CF1 /* Assets.xcassets */,
+				03B44F7220084ED600551CF1 /* LaunchScreen.storyboard */,
+				03B44F7520084ED600551CF1 /* Info.plist */,
+				03B44F6420084ED600551CF1 /* Supporting Files */,
+			);
+			path = ParabolaMoveDemo;
+			sourceTree = "<group>";
+		};
+		03B44F6420084ED600551CF1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				03B44F6520084ED600551CF1 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		03B44F7D20084ED700551CF1 /* ParabolaMoveDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				03B44F7E20084ED700551CF1 /* ParabolaMoveDemoTests.m */,
+				03B44F8020084ED700551CF1 /* Info.plist */,
+			);
+			path = ParabolaMoveDemoTests;
+			sourceTree = "<group>";
+		};
+		03B44F8820084ED700551CF1 /* ParabolaMoveDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				03B44F8920084ED700551CF1 /* ParabolaMoveDemoUITests.m */,
+				03B44F8B20084ED700551CF1 /* Info.plist */,
+			);
+			path = ParabolaMoveDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		03B44F6020084ED600551CF1 /* ParabolaMoveDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03B44F8E20084ED700551CF1 /* Build configuration list for PBXNativeTarget "ParabolaMoveDemo" */;
+			buildPhases = (
+				03B44F5D20084ED600551CF1 /* Sources */,
+				03B44F5E20084ED600551CF1 /* Frameworks */,
+				03B44F5F20084ED600551CF1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ParabolaMoveDemo;
+			productName = ParabolaMoveDemo;
+			productReference = 03B44F6120084ED600551CF1 /* ParabolaMoveDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		03B44F7920084ED700551CF1 /* ParabolaMoveDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03B44F9120084ED700551CF1 /* Build configuration list for PBXNativeTarget "ParabolaMoveDemoTests" */;
+			buildPhases = (
+				03B44F7620084ED700551CF1 /* Sources */,
+				03B44F7720084ED700551CF1 /* Frameworks */,
+				03B44F7820084ED700551CF1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				03B44F7C20084ED700551CF1 /* PBXTargetDependency */,
+			);
+			name = ParabolaMoveDemoTests;
+			productName = ParabolaMoveDemoTests;
+			productReference = 03B44F7A20084ED700551CF1 /* ParabolaMoveDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		03B44F8420084ED700551CF1 /* ParabolaMoveDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03B44F9420084ED700551CF1 /* Build configuration list for PBXNativeTarget "ParabolaMoveDemoUITests" */;
+			buildPhases = (
+				03B44F8120084ED700551CF1 /* Sources */,
+				03B44F8220084ED700551CF1 /* Frameworks */,
+				03B44F8320084ED700551CF1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				03B44F8720084ED700551CF1 /* PBXTargetDependency */,
+			);
+			name = ParabolaMoveDemoUITests;
+			productName = ParabolaMoveDemoUITests;
+			productReference = 03B44F8520084ED700551CF1 /* ParabolaMoveDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		03B44F5920084ED600551CF1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = AY;
+				TargetAttributes = {
+					03B44F6020084ED600551CF1 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = 7DC4XMJV5E;
+						ProvisioningStyle = Automatic;
+					};
+					03B44F7920084ED700551CF1 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = 7DC4XMJV5E;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 03B44F6020084ED600551CF1;
+					};
+					03B44F8420084ED700551CF1 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = 7DC4XMJV5E;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 03B44F6020084ED600551CF1;
+					};
+				};
+			};
+			buildConfigurationList = 03B44F5C20084ED600551CF1 /* Build configuration list for PBXProject "ParabolaMoveDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 03B44F5820084ED600551CF1;
+			productRefGroup = 03B44F6220084ED600551CF1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				03B44F6020084ED600551CF1 /* ParabolaMoveDemo */,
+				03B44F7920084ED700551CF1 /* ParabolaMoveDemoTests */,
+				03B44F8420084ED700551CF1 /* ParabolaMoveDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		03B44F5F20084ED600551CF1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03B44F7420084ED600551CF1 /* LaunchScreen.storyboard in Resources */,
+				03B44F7120084ED600551CF1 /* Assets.xcassets in Resources */,
+				03B44F6F20084ED600551CF1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03B44F7820084ED700551CF1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03B44F8320084ED700551CF1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		03B44F5D20084ED600551CF1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03B44F6C20084ED600551CF1 /* ViewController.m in Sources */,
+				03B44F6920084ED600551CF1 /* AppDelegate.m in Sources */,
+				03B44F6620084ED600551CF1 /* main.m in Sources */,
+				03B44F9920084F5100551CF1 /* ParabolaManger.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03B44F7620084ED700551CF1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03B44F7F20084ED700551CF1 /* ParabolaMoveDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03B44F8120084ED700551CF1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03B44F8A20084ED700551CF1 /* ParabolaMoveDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		03B44F7C20084ED700551CF1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 03B44F6020084ED600551CF1 /* ParabolaMoveDemo */;
+			targetProxy = 03B44F7B20084ED700551CF1 /* PBXContainerItemProxy */;
+		};
+		03B44F8720084ED700551CF1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 03B44F6020084ED600551CF1 /* ParabolaMoveDemo */;
+			targetProxy = 03B44F8620084ED700551CF1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		03B44F6D20084ED600551CF1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03B44F6E20084ED600551CF1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		03B44F7220084ED600551CF1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03B44F7320084ED600551CF1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		03B44F8C20084ED700551CF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		03B44F8D20084ED700551CF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		03B44F8F20084ED700551CF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7DC4XMJV5E;
+				INFOPLIST_FILE = ParabolaMoveDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.alexander.www.ParabolaMoveDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		03B44F9020084ED700551CF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7DC4XMJV5E;
+				INFOPLIST_FILE = ParabolaMoveDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.alexander.www.ParabolaMoveDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		03B44F9220084ED700551CF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 7DC4XMJV5E;
+				INFOPLIST_FILE = ParabolaMoveDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.alexander.www.ParabolaMoveDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ParabolaMoveDemo.app/ParabolaMoveDemo";
+			};
+			name = Debug;
+		};
+		03B44F9320084ED700551CF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 7DC4XMJV5E;
+				INFOPLIST_FILE = ParabolaMoveDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.alexander.www.ParabolaMoveDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ParabolaMoveDemo.app/ParabolaMoveDemo";
+			};
+			name = Release;
+		};
+		03B44F9520084ED700551CF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 7DC4XMJV5E;
+				INFOPLIST_FILE = ParabolaMoveDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.alexander.www.ParabolaMoveDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ParabolaMoveDemo;
+			};
+			name = Debug;
+		};
+		03B44F9620084ED700551CF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 7DC4XMJV5E;
+				INFOPLIST_FILE = ParabolaMoveDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.alexander.www.ParabolaMoveDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ParabolaMoveDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		03B44F5C20084ED600551CF1 /* Build configuration list for PBXProject "ParabolaMoveDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03B44F8C20084ED700551CF1 /* Debug */,
+				03B44F8D20084ED700551CF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03B44F8E20084ED700551CF1 /* Build configuration list for PBXNativeTarget "ParabolaMoveDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03B44F8F20084ED700551CF1 /* Debug */,
+				03B44F9020084ED700551CF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		03B44F9120084ED700551CF1 /* Build configuration list for PBXNativeTarget "ParabolaMoveDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03B44F9220084ED700551CF1 /* Debug */,
+				03B44F9320084ED700551CF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		03B44F9420084ED700551CF1 /* Build configuration list for PBXNativeTarget "ParabolaMoveDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03B44F9520084ED700551CF1 /* Debug */,
+				03B44F9620084ED700551CF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 03B44F5920084ED600551CF1 /* Project object */;
+}
